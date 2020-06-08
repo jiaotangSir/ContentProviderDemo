@@ -5,8 +5,9 @@
 
 
 ###  1、准备。
-先加载jar包 permissionxlibrary.jar，
-再在build.gradle添加
+a、先下载并加载jar包mypermissionx.jar(在app->libs文件夹下)，
+
+b、再在build.gradle添加easypermissions依赖
 ```
     implementation 'pub.devrel:easypermissions:3.0.0'
 
@@ -17,4 +18,5 @@
         showContact()
     }
 ```
+
 
